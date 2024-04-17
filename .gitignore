@@ -1,7 +1,10 @@
 ### IntelliJ IDEA ###
 out/
+.idea/
 !**/src/main/**/out/
 !**/src/test/**/out/
+AITProject.iml
+.gitignore
 
 ### Eclipse ###
 .apt_generated
