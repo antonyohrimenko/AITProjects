@@ -41,15 +41,5 @@ public class MainTestObjects {
         doc.getAnamnesis();
         doc.notAvalible();
 
-
-
-
-
-
-
-
-
-
-
     }
 }
