@@ -10,7 +10,7 @@ public class MainTesterObject {
         student.passExam();
         student.passExam();
 
-        student.getPerfomance();
+        student.getMarks();
 
         student.setUniversity("Hamburg University");
         student.getUniversity();
@@ -27,10 +27,10 @@ public class MainTesterObject {
         pen1.write("12"); // написали 2 символа
         pen1.checkInk();
 
-        pen1.write("  A B   C D "); // написали еще 4. осталось одна чернила
+        pen1.write("  A B   C D "); // написали еще 4.
         pen1.checkInk();
 
-        pen1.write(" 1 2 3 4 5 "); // напишем с кучей пробелов
+        pen1.write(" 1 2 3 4 5 "); // Осталось 4, а напишем с кучей пробелов
 
         System.out.println("==================================");
 
@@ -42,5 +42,13 @@ public class MainTesterObject {
         System.out.println("==================================");
 
         pen1.write("This was a good task!");
+
+
+        System.out.println("==================================");
+
+        System.out.println("Значение статичной переменной Volume до выхова конструктора: " + Initialization.volume1);
+        Initialization init = new Initialization(); // значение volume уже = 0
+
+
     }
 }
