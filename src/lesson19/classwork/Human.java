@@ -1,6 +1,6 @@
 package lesson19.classwork;
 
-public class Human {
+class Human {
 
     // создаем константы
     public static final String SPECIES = "Home sapience";
