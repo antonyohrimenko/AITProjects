@@ -43,6 +43,8 @@ public class Product {
         this.price = Math.max(price, 0);
     }
 
+
+    // вообще можно убрать этот метод, убрать из "продукта"
     public boolean takeAmount(int amount) {
         if (quantity < amount) {
             return false;
