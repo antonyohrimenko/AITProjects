@@ -31,7 +31,10 @@ public class Main {
         // Выводим развернутый список
         System.out.println("Развернутый список:");
         printList(randomNumbers);
+
     }
+
+
 
 
     // генерируем случайный список
