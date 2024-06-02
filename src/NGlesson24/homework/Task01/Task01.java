@@ -1,4 +1,4 @@
-package NGlesson24.homework;
+package NGlesson24.homework.Task01;
 
 import java.util.Arrays;
 import java.util.Scanner;
