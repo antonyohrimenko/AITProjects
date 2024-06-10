@@ -1,4 +1,4 @@
-package NGlesson27.homework;
+package NGlesson27.homework.ExtraTask;
 
 import java.util.Arrays;
 import java.util.Scanner;
