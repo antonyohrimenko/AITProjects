@@ -5,6 +5,5 @@ public class Main {
 
         ReactorTemperatureMonitor monitor = new ReactorTemperatureMonitor();
         monitor.startMonitoring();
-
     }
 }
