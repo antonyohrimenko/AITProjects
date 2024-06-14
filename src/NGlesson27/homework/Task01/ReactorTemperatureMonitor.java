@@ -41,7 +41,7 @@ public class ReactorTemperatureMonitor {
             checkForAlert(temperatures, averageAllTime, previousTemperature, currentTemperature);
 
             // вывод общей инфы
-            System.out.println("Средняя температура ядерного реактора за ВСЕ время: " + averageAllTime);
+            System.out.println("Средняя температура реактора за ВСЕ время: %.2f\n" + averageAllTime);
             System.out.println(differenceMessage);
 
             // обновляем значение
