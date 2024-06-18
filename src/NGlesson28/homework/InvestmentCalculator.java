@@ -3,10 +3,8 @@ package NGlesson28.homework;
 import java.util.List;
 
 public class InvestmentCalculator {
-    private static final double AVERAGE_PROFIT_THRESHOLD = 1.1;
-    private static final double PREVIOUS_PROFIT_THRESHOLD = 1.2;
-
     public static void calculateAndDisplayResults(List<Investment> investments) {
+
         if (investments.isEmpty()) {
             System.out.println("No investments found.");
             return;
@@ -28,12 +26,12 @@ public class InvestmentCalculator {
 
         double averageProfit = totalProfit / investments.size();
 
-        System.out.println("Profits from each investment:");
+        System.out.println("Доход от каждого вклада:");
         for (Investment investment : investments) {
-            System.out.println(investment + ", Profit: " + investment.calculateProfit());
+            System.out.println(investment + ", Доход без учета тела: " + investment.calculateProfit() + " Средний доход по вкладу: "+ investment.calculateProfit()/investment.getYears());
         }
 
-        System.out.println("Most profitable investment: " + bestInvestment + ", Profit: " + maxProfit);
-        System.out.println("Average profit: " + averageProfit);
+        System.out.println("Наиболее прибыльная инвестиция: " + bestInvestment + ", Доход: " + maxProfit);
+        System.out.println("Средний доход вклада: " + averageProfit);
     }
 }

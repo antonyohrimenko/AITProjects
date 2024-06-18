@@ -29,7 +29,7 @@ public class Investment {
 
     @Override
     public String toString() {
-        return "Investment{" +
+        return "Вклад {" +
                 "amount=" + amount +
                 ", interestRate=" + interestRate +
                 ", years=" + years +
