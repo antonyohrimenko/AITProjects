@@ -12,7 +12,7 @@ public class Main {
         // прямо тут прямо сразу. Обьект можно создать только один
         // создает обьект и мы этот класс выкидываем и не вспоминаем
 
-        Button newButton = new Button() {
+        Button newButton = new Button() {   // можно заменить на лямбда выражение
             @Override
             public void onClick() {
                 System.out.println("Вы нажали на новую кнопку");
