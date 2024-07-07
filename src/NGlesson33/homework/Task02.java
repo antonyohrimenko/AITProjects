@@ -18,6 +18,7 @@ public class Task02 {
         List<String> list = new ArrayList<>();
 
         //добавим 5 каких-то строк в список разной длинны
+        list.add("Я 15 символов");
         list.add("Я бесполезная строка");
         list.add("Я очень простая строка");
         list.add("Я пытаюсь быть какой-то строкой");
@@ -29,7 +30,7 @@ public class Task02 {
        List<String> result = list.stream()
                // у меня все 5 строк более 15 символов, для наглядности
                // что фильтр работает, сделаем условие 30
-               .filter(str -> str.length() > 30)
+               .filter(str -> str.length() < 30)
                .toList();
         System.out.println(result);
 
